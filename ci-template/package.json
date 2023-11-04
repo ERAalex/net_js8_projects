@@ -1,9 +1,9 @@
 {
   "name": "ajs",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
+    "go": "node src/js/health.js",
     "start": "webpack serve --mode development",
     "build": "webpack --mode production",
     "lint": "eslint .",
@@ -33,5 +33,6 @@
     "webpack": "^5.88.2",
     "webpack-cli": "^5.1.4",
     "webpack-dev-server": "^4.15.1"
-  }
+  },
+  "description": ""
 }
